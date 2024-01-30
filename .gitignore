@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore Poetry related files
+poetry.lock
+pyproject.toml
+poetry.toml
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore local development files and directories
+*.log
+*.sqlite3
+*.env
